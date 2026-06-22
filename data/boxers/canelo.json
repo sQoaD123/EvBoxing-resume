@@ -1,0 +1,215 @@
+{
+  "id": "canelo",
+  "name": "Saul Canelo Alvarez",
+  "countryCode": "MX",
+  "fights": [
+    {
+      "num": 1,
+      "opponent": "Abraham Gonzalez",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 2, "opponent": "Pablo Alvarado", "result": "W-KO", "tier": "D" },
+    {
+      "num": 3,
+      "opponent": "Jose Miguel Vazquez Bautista",
+      "result": "W-SD",
+      "tier": "B"
+    },
+    { "num": 4, "opponent": "Pedro Lopez", "result": "W-KO", "tier": "D" },
+    { "num": 5, "opponent": "Jorge Juarez", "result": "D-SD", "tier": "D" },
+    { "num": 6, "opponent": "Juan Hernandez", "result": "W-KO", "tier": "D" },
+    {
+      "num": 7,
+      "opponent": "Cristian Hernandez",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    {
+      "num": 8,
+      "opponent": "Francisco Villanueva",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 9, "opponent": "Daniel Martinez", "result": "W-KO", "tier": "D" },
+    {
+      "num": 10,
+      "opponent": "Javier Martinez",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 11, "opponent": "Ivan Illescas", "result": "W-KO", "tier": "D" },
+    {
+      "num": 12,
+      "opponent": "Victor Emilio Marquez",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    {
+      "num": 13,
+      "opponent": "Jesus Abel Hernandez",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 14,
+      "opponent": "Christian Solano",
+      "result": "W-UD",
+      "tier": "D"
+    },
+    { "num": 15, "opponent": "Ricardo Cano", "result": "W-UD", "tier": "D" },
+    { "num": 16, "opponent": "Sean Holley", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 17,
+      "opponent": "Axel Rodrigo Solis",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    {
+      "num": 18,
+      "opponent": "Francisco Villanueva",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 19,
+      "opponent": "Gabriel Martinez",
+      "result": "W-RTD",
+      "tier": "D"
+    },
+    {
+      "num": 20,
+      "opponent": "Francisco Villanueva",
+      "result": "W-SD",
+      "tier": "D"
+    },
+    {
+      "num": 21,
+      "opponent": "Jose Miguel Vazquez Bautista",
+      "result": "W-UD",
+      "tier": "B"
+    },
+    {
+      "num": 22,
+      "opponent": "Carlos Adan Jerez",
+      "result": "W-UD",
+      "tier": "D"
+    },
+    { "num": 23, "opponent": "Larry Mosley", "result": "W-UD", "tier": "D" },
+    { "num": 24, "opponent": "Raul Pinzon", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 25,
+      "opponent": "Luis Antonio Fitch",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 26, "opponent": "Euri Gonzalez", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 27,
+      "opponent": "Michel Rosales Hernandez",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    {
+      "num": 28,
+      "opponent": "Jeferson Luis Goncalo",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 29, "opponent": "Marat Khuzeev", "result": "W-KO", "tier": "D" },
+    {
+      "num": 30,
+      "opponent": "Carlos Leonardo Herrera",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 31, "opponent": "Lanardo Tyner", "result": "W-UD", "tier": "C" },
+    { "num": 32, "opponent": "Brian Camechis", "result": "W-KO", "tier": "D" },
+    {
+      "num": 33,
+      "opponent": "Jose Miguel Cotto",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    {
+      "num": 34,
+      "opponent": "Luciano Leonel Cuello",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    {
+      "num": 35,
+      "opponent": "Carlos Manuel Baldomir",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 36, "opponent": "Lovemore Ndou", "result": "W-UD", "tier": "B" },
+    { "num": 37, "opponent": "Matthew Hatton", "result": "W-UD", "tier": "B" },
+    { "num": 38, "opponent": "Ryan Rhodes", "result": "W-TKO", "tier": "C" },
+    { "num": 39, "opponent": "Alfonso Gomez", "result": "W-TKO", "tier": "B" },
+    { "num": 40, "opponent": "Kermit Cintron", "result": "W-TKO", "tier": "B" },
+    { "num": 41, "opponent": "Shane Mosley", "result": "W-UD", "tier": "B+" },
+    { "num": 42, "opponent": "Josesito Lopez", "result": "W-TKO", "tier": "B" },
+    { "num": 43, "opponent": "Austin Trout", "result": "W-UD", "tier": "A" },
+    {
+      "num": 44,
+      "opponent": "Floyd Mayweather Jr",
+      "result": "L-MD",
+      "tier": "S"
+    },
+    { "num": 45, "opponent": "Alfredo Angulo", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 46,
+      "opponent": "Erislandy Lara",
+      "result": "W-SD",
+      "tier": "A++"
+    },
+    { "num": 47, "opponent": "James Kirkland", "result": "W-KO", "tier": "B" },
+    { "num": 48, "opponent": "Miguel Cotto", "result": "W-UD", "tier": "A" },
+    { "num": 49, "opponent": "Amir Khan", "result": "W-KO", "tier": "B" },
+    { "num": 50, "opponent": "Liam Smith", "result": "W-KO", "tier": "B+" },
+    {
+      "num": 51,
+      "opponent": "Julio Cesar Chavez Jr",
+      "result": "W-UD",
+      "tier": "B"
+    },
+    {
+      "num": 52,
+      "opponent": "Gennadiy Golovkin",
+      "result": "L-NOD",
+      "tier": "S"
+    },
+    {
+      "num": 53,
+      "opponent": "Gennadiy Golovkin",
+      "result": "W-MD",
+      "tier": "S"
+    },
+    { "num": 54, "opponent": "Rocky Fielding", "result": "W-TKO", "tier": "C" },
+    { "num": 55, "opponent": "Daniel Jacobs", "result": "W-UD", "tier": "A+" },
+    { "num": 56, "opponent": "Sergey Kovalev", "result": "W-KO", "tier": "A+" },
+    { "num": 57, "opponent": "Callum Smith", "result": "W-UD", "tier": "A" },
+    { "num": 58, "opponent": "Avni Yildirim", "result": "W-RTD", "tier": "C" },
+    {
+      "num": 59,
+      "opponent": "Billy Joe Saunders",
+      "result": "W-RTD",
+      "tier": "A"
+    },
+    { "num": 60, "opponent": "Caleb Plant", "result": "W-TKO", "tier": "A" },
+    { "num": 61, "opponent": "Dmitrii Bivol", "result": "L-UD", "tier": "S" },
+    {
+      "num": 62,
+      "opponent": "Gennadiy Golovkin",
+      "result": "W-UD",
+      "tier": "A"
+    },
+    { "num": 63, "opponent": "John Ryder", "result": "W-UD", "tier": "B+" },
+    { "num": 64, "opponent": "Jermell Charlo", "result": "W-UD", "tier": "B+" },
+    { "num": 65, "opponent": "Jaime Munguia", "result": "W-UD", "tier": "B+" },
+    { "num": 66, "opponent": "Edgar Berlanga", "result": "W-UD", "tier": "B" },
+    { "num": 67, "opponent": "William Scull", "result": "W-UD", "tier": "B+" },
+    { "num": 68, "opponent": "Terence Crawford", "result": "L-UD", "tier": "S" }
+  ]
+}

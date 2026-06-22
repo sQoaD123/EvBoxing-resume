@@ -1,0 +1,104 @@
+{
+  "id": "crawford",
+  "name": "Terence Crawford",
+  "countryCode": "USA",
+  "fights": [
+    { "num": 1, "opponent": "Brian Cummings", "result": "W-KO", "tier": "D" },
+    { "num": 2, "opponent": "Filiberto Nieto", "result": "W-RTD", "tier": "D" },
+    { "num": 3, "opponent": "Damon Antoine", "result": "W-UD", "tier": "D" },
+    { "num": 4, "opponent": "Aaron Anderson", "result": "W-UD", "tier": "D" },
+    {
+      "num": 5,
+      "opponent": "Michael Williams",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 6, "opponent": "Travis Hartman", "result": "W-UD", "tier": "D" },
+    { "num": 7, "opponent": "Lucas Rodas", "result": "W-KO", "tier": "D" },
+    { "num": 8, "opponent": "Miguel Delgado", "result": "W-TKO", "tier": "D" },
+    { "num": 9, "opponent": "Steve Marquez", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 10,
+      "opponent": "Corey Sommerville",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 11, "opponent": "Marty Robbins", "result": "W-KO", "tier": "D" },
+    { "num": 12, "opponent": "Ron Boyd", "result": "W-TKO", "tier": "D" },
+    { "num": 13, "opponent": "Anthony Mora", "result": "W-KO", "tier": "D" },
+    { "num": 14, "opponent": "Derrick Campos", "result": "W-TKO", "tier": "D" },
+    { "num": 15, "opponent": "Angel Rios", "result": "W-UD", "tier": "D" },
+    { "num": 16, "opponent": "Andre Gorges", "result": "W-KO", "tier": "C" },
+    { "num": 17, "opponent": "David Rodela", "result": "W-KO", "tier": "D" },
+    { "num": 18, "opponent": "Hardy Paredes", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 19,
+      "opponent": "Sidney Siqueira",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 20,
+      "opponent": "Breidis Prescott",
+      "result": "W-UD",
+      "tier": "B+"
+    },
+    {
+      "num": 21,
+      "opponent": "Alejandro Sanabria",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 22, "opponent": "Andrey Klimov", "result": "W-UD", "tier": "B" },
+    { "num": 23, "opponent": "Ricky Burns", "result": "W-UD", "tier": "B+" },
+    {
+      "num": 24,
+      "opponent": "Yuriorkis Gamboa",
+      "result": "W-TKO",
+      "tier": "A"
+    },
+    {
+      "num": 25,
+      "opponent": "Raymundo Beltran",
+      "result": "W-UD",
+      "tier": "B+"
+    },
+    { "num": 26, "opponent": "Thomas Dulorme", "result": "W-TKO", "tier": "B" },
+    { "num": 27, "opponent": "Dierry Jean", "result": "W-TKO", "tier": "B" },
+    { "num": 28, "opponent": "Henry Lundy", "result": "W-TKO", "tier": "B" },
+    { "num": 29, "opponent": "Viktor Postol", "result": "W-UD", "tier": "A" },
+    { "num": 30, "opponent": "John Molina Jr", "result": "W-TKO", "tier": "B" },
+    { "num": 31, "opponent": "Felix Diaz", "result": "W-RTD", "tier": "B" },
+    { "num": 32, "opponent": "Julius Indongo", "result": "W-KO", "tier": "B+" },
+    { "num": 33, "opponent": "Jeff Horn", "result": "W-TKO", "tier": "B+" },
+    {
+      "num": 34,
+      "opponent": "Jose Benavidez Jr",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 35, "opponent": "Amir Khan", "result": "W-TKO", "tier": "B+" },
+    {
+      "num": 36,
+      "opponent": "Egidijus Kavaliauskas",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 37, "opponent": "Kell Brook", "result": "W-TKO", "tier": "B+" },
+    { "num": 38, "opponent": "Shawn Porter", "result": "W-TKO", "tier": "A+" },
+    { "num": 39, "opponent": "David Avanesyan", "result": "W-KO", "tier": "B" },
+    {
+      "num": 40,
+      "opponent": "Errol Spence Jr",
+      "result": "W-TKO",
+      "tier": "S"
+    },
+    { "num": 41, "opponent": "Israil Madrimov", "result": "W-UD", "tier": "A" },
+    {
+      "num": 42,
+      "opponent": "Saul Canelo Alvarez",
+      "result": "W-UD",
+      "tier": "S+"
+    }
+  ]
+}

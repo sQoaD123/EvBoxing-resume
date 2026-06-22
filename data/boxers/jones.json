@@ -1,0 +1,168 @@
+{
+  "id": "jones",
+  "name": "Roy Jones Jr.",
+  "countryCode": "USA",
+  "fights": [
+    { "num": 1, "opponent": "Ricky Randall", "result": "W-TKO", "tier": "D" },
+    { "num": 2, "opponent": "Stephan Johnson", "result": "W-TKO", "tier": "D" },
+    { "num": 3, "opponent": "Ron Amundsen", "result": "W-TKO", "tier": "D" },
+    { "num": 4, "opponent": "David McCluskey", "result": "W-TKO", "tier": "D" },
+    { "num": 5, "opponent": "Joe Edens", "result": "W-KO", "tier": "D" },
+    { "num": 6, "opponent": "Billy Mitchem", "result": "W-TKO", "tier": "D" },
+    { "num": 7, "opponent": "Knox Brown", "result": "W-TKO", "tier": "D" },
+    { "num": 8, "opponent": "Ron Johnson", "result": "W-KO", "tier": "D" },
+    { "num": 9, "opponent": "Tony Waddles", "result": "W-KO", "tier": "D" },
+    { "num": 10, "opponent": "Rollin Williams", "result": "W-KO", "tier": "D" },
+    { "num": 11, "opponent": "Reggie Miller", "result": "W-KO", "tier": "D" },
+    {
+      "num": 12,
+      "opponent": "Ricky Stackhouse",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 13, "opponent": "Eddie Evans", "result": "W-TKO", "tier": "D" },
+    { "num": 14, "opponent": "Kevin Daigle", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 15,
+      "opponent": "Lester Yarbrough",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 16, "opponent": "Jorge Vaca", "result": "W-KO", "tier": "B+" },
+    { "num": 17, "opponent": "Art Serwano", "result": "W-TKO", "tier": "D" },
+    { "num": 18, "opponent": "Jorge Castro", "result": "W-UD", "tier": "B+" },
+    { "num": 19, "opponent": "Glenn Thomas", "result": "W-TKO", "tier": "B" },
+    { "num": 20, "opponent": "Percy Harris", "result": "W-TKO", "tier": "C" },
+    { "num": 21, "opponent": "Glenn Wolfe", "result": "W-TKO", "tier": "B" },
+    {
+      "num": 22,
+      "opponent": "Bernard Hopkins",
+      "result": "W-UD",
+      "tier": "A++"
+    },
+    {
+      "num": 23,
+      "opponent": "Thulani Malinga",
+      "result": "W-KO",
+      "tier": "B+"
+    },
+    { "num": 24, "opponent": "Fermin Chirino", "result": "W-UD", "tier": "D" },
+    { "num": 25, "opponent": "Danny Garcia", "result": "W-KO", "tier": "D" },
+    { "num": 26, "opponent": "Thomas Tate", "result": "W-TKO", "tier": "B" },
+    { "num": 27, "opponent": "James Toney", "result": "W-UD", "tier": "S" },
+    { "num": 28, "opponent": "Antoine Byrd", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 29,
+      "opponent": "Vinny Pazienza",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 30, "opponent": "Tony Thornton", "result": "W-TKO", "tier": "B" },
+    { "num": 31, "opponent": "Merqui Sosa", "result": "W-TKO", "tier": "B" },
+    { "num": 32, "opponent": "Eric Lucas", "result": "W-RTD", "tier": "B" },
+    { "num": 33, "opponent": "Bryant Brannon", "result": "W-TKO", "tier": "B" },
+    { "num": 34, "opponent": "Mike McCallum", "result": "W-UD", "tier": "A" },
+    {
+      "num": 35,
+      "opponent": "Montell Griffin",
+      "result": "L-DQ",
+      "tier": "A+"
+    },
+    {
+      "num": 36,
+      "opponent": "Montell Griffin",
+      "result": "W-KO",
+      "tier": "A+"
+    },
+    { "num": 37, "opponent": "Virgil Hill", "result": "W-KO", "tier": "A+" },
+    { "num": 38, "opponent": "Lou Del Valle", "result": "W-UD", "tier": "B+" },
+    { "num": 39, "opponent": "Otis Grant", "result": "W-TKO", "tier": "B" },
+    {
+      "num": 40,
+      "opponent": "Richard Frazier",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 41, "opponent": "Reggie Johnson", "result": "W-UD", "tier": "A" },
+    { "num": 42, "opponent": "David Telesco", "result": "W-UD", "tier": "B" },
+    { "num": 43, "opponent": "Richard Hall", "result": "W-TKO", "tier": "B" },
+    { "num": 44, "opponent": "Eric Harding", "result": "W-RTD", "tier": "A" },
+    { "num": 45, "opponent": "Derrick Harmon", "result": "W-RTD", "tier": "C" },
+    {
+      "num": 46,
+      "opponent": "Julio Cesar Gonzalez",
+      "result": "W-UD",
+      "tier": "A"
+    },
+    { "num": 47, "opponent": "Glen Kelly", "result": "W-KO", "tier": "C" },
+    { "num": 48, "opponent": "Clinton Woods", "result": "W-TKO", "tier": "B+" },
+    { "num": 49, "opponent": "John Ruiz", "result": "W-UD", "tier": "A++" },
+    {
+      "num": 50,
+      "opponent": "Antonio Tarver",
+      "result": "W-MD",
+      "tier": "A++"
+    },
+    {
+      "num": 51,
+      "opponent": "Antonio Tarver",
+      "result": "L-TKO",
+      "tier": "A++"
+    },
+    { "num": 52, "opponent": "Glen Johnson", "result": "L-KO", "tier": "A" },
+    {
+      "num": 53,
+      "opponent": "Antonio Tarver",
+      "result": "L-UD",
+      "tier": "A++"
+    },
+    {
+      "num": 54,
+      "opponent": "Prince Badi Ajamu",
+      "result": "W-UD",
+      "tier": "C"
+    },
+    { "num": 55, "opponent": "Anthony Hanshaw", "result": "W-UD", "tier": "C" },
+    { "num": 56, "opponent": "Felix Trinidad", "result": "W-UD", "tier": "B" },
+    { "num": 57, "opponent": "Joe Calzaghe", "result": "L-UD", "tier": "S" },
+    { "num": 58, "opponent": "Omar Sheika", "result": "W-TKO", "tier": "C" },
+    { "num": 59, "opponent": "Jeff Lacy", "result": "W-RTD", "tier": "B+" },
+    { "num": 60, "opponent": "Danny Green", "result": "L-TKO", "tier": "B+" },
+    {
+      "num": 61,
+      "opponent": "Bernard Hopkins",
+      "result": "L-UD",
+      "tier": "A++"
+    },
+    { "num": 62, "opponent": "Denis Lebedev", "result": "L-KO", "tier": "A" },
+    { "num": 63, "opponent": "Max Alexander", "result": "W-UD", "tier": "D" },
+    { "num": 64, "opponent": "Pawel Glazewski", "result": "W-SD", "tier": "D" },
+    {
+      "num": 65,
+      "opponent": "Zine Eddine Benmakhlouf",
+      "result": "W-UD",
+      "tier": "D"
+    },
+    { "num": 66, "opponent": "Courtney Fry", "result": "W-RTD", "tier": "D" },
+    { "num": 67, "opponent": "Hany Atiyo", "result": "W-KO", "tier": "D" },
+    {
+      "num": 68,
+      "opponent": "Willie Williams",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 69, "opponent": "Paul Vasquez", "result": "W-TKO", "tier": "D" },
+    { "num": 70, "opponent": "Eric Watkins", "result": "W-KO", "tier": "D" },
+    {
+      "num": 71,
+      "opponent": "Enzo Maccarinelli",
+      "result": "L-KO",
+      "tier": "D"
+    },
+    { "num": 72, "opponent": "Vyron Phillips", "result": "W-TKO", "tier": "D" },
+    { "num": 73, "opponent": "Rodney Moore", "result": "W-UD", "tier": "D" },
+    { "num": 74, "opponent": "Bobby Gunn", "result": "W-TKO", "tier": "D" },
+    { "num": 75, "opponent": "Scott Sigmon", "result": "W-UD", "tier": "D" },
+    { "num": 76, "opponent": "Anthony Pettis", "result": "L-MD", "tier": "D" }
+  ]
+}

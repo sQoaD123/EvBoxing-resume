@@ -1,0 +1,230 @@
+{
+  "id": "pacquiao",
+  "name": "Manny Pacquiao",
+  "countryCode": "PH",
+  "fights": [
+    {
+      "num": 1,
+      "opponent": "Edmund Enting Ignacio",
+      "result": "W-UD",
+      "tier": "D"
+    },
+    { "num": 2, "opponent": "Pinoy Montejo", "result": "W-UD", "tier": "D" },
+    { "num": 3, "opponent": "Rocky Palma", "result": "W-UD", "tier": "D" },
+    { "num": 4, "opponent": "Dele Desierto", "result": "W-TKO", "tier": "D" },
+    { "num": 5, "opponent": "Acasio Simbajon", "result": "W-UD", "tier": "D" },
+    { "num": 6, "opponent": "Arman Rocil", "result": "W-KO", "tier": "D" },
+    { "num": 7, "opponent": "Lolito Laroa", "result": "W-UD", "tier": "D" },
+    { "num": 8, "opponent": "Renato Mendones", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 9,
+      "opponent": "Rudolfo Fernandez",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 10, "opponent": "Rolando Toyogon", "result": "W-UD", "tier": "D" },
+    { "num": 11, "opponent": "Lito Torrejos", "result": "W-TD", "tier": "D" },
+    {
+      "num": 12,
+      "opponent": "Rustico Torrecampo",
+      "result": "L-KO",
+      "tier": "D"
+    },
+    { "num": 13, "opponent": "Marlon Carillo", "result": "W-UD", "tier": "D" },
+    { "num": 14, "opponent": "John Medina", "result": "W-TKO", "tier": "D" },
+    { "num": 15, "opponent": "Bert Batiller", "result": "W-TKO", "tier": "D" },
+    { "num": 16, "opponent": "Ippo Gala", "result": "W-TKO", "tier": "D" },
+    { "num": 17, "opponent": "Sung Yul Lee", "result": "W-TKO", "tier": "D" },
+    { "num": 18, "opponent": "Mike Luna", "result": "W-KO", "tier": "D" },
+    { "num": 19, "opponent": "Wook Ki Lee", "result": "W-KO", "tier": "D" },
+    { "num": 20, "opponent": "Ariel Austria", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 21,
+      "opponent": "Chokchai Chockvivat",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 22, "opponent": "Melvin Magramo", "result": "W-UD", "tier": "D" },
+    {
+      "num": 23,
+      "opponent": "Narong Datchthuyawat",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 24, "opponent": "Shin Terao", "result": "W-KO", "tier": "D" },
+    {
+      "num": 25,
+      "opponent": "Chatchai Sasakul",
+      "result": "W-KO",
+      "tier": "A+"
+    },
+    { "num": 26, "opponent": "Todd Makelim", "result": "W-TKO", "tier": "D" },
+    { "num": 27, "opponent": "Gabriel Mira", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 28,
+      "opponent": "Boonsai Sangsurat",
+      "result": "L-TKO",
+      "tier": "B"
+    },
+    {
+      "num": 29,
+      "opponent": "Reynante Jamili",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 30,
+      "opponent": "Arnel Barotillo",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    { "num": 31, "opponent": "Seung Kon Chae", "result": "W-TKO", "tier": "D" },
+    { "num": 32, "opponent": "Nedal Hussein", "result": "W-TKO", "tier": "B" },
+    {
+      "num": 33,
+      "opponent": "Tetsutora Senrima",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 34, "opponent": "Foijan Prawet", "result": "W-KO", "tier": "B" },
+    { "num": 35, "opponent": "Lehlo Ledwaba", "result": "W-TKO", "tier": "A+" },
+    {
+      "num": 36,
+      "opponent": "Agapito Sanchez",
+      "result": "W-NOD",
+      "tier": "B+"
+    },
+    {
+      "num": 37,
+      "opponent": "Jorge Eliecer Julio",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    {
+      "num": 38,
+      "opponent": "Prayat Sawaingam",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 39,
+      "opponent": "Serikzhan Yeshmagambetov",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 40,
+      "opponent": "Emmanuel Lucero",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    {
+      "num": 41,
+      "opponent": "Marco Antonio Barrera",
+      "result": "W-TKO",
+      "tier": "S"
+    },
+    {
+      "num": 42,
+      "opponent": "Juan Manuel Marquez",
+      "result": "D-SD",
+      "tier": "A++"
+    },
+    {
+      "num": 43,
+      "opponent": "Narongrit Pirang",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 44, "opponent": "Erik Morales", "result": "L-UD", "tier": "A++" },
+    {
+      "num": 45,
+      "opponent": "Hector Velazquez",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 46, "opponent": "Erik Morales", "result": "W-TKO", "tier": "A" },
+    { "num": 47, "opponent": "Oscar Larios", "result": "W-UD", "tier": "B" },
+    { "num": 48, "opponent": "Erik Morales", "result": "W-KO", "tier": "A" },
+    { "num": 49, "opponent": "Jorge Solis", "result": "W-KO", "tier": "B" },
+    {
+      "num": 50,
+      "opponent": "Marco Antonio Barrera",
+      "result": "W-UD",
+      "tier": "A+"
+    },
+    {
+      "num": 51,
+      "opponent": "Juan Manuel Marquez",
+      "result": "W-SD",
+      "tier": "A++"
+    },
+    { "num": 52, "opponent": "David Diaz", "result": "W-TKO", "tier": "B+" },
+    {
+      "num": 53,
+      "opponent": "Oscar De La Hoya",
+      "result": "W-RTD",
+      "tier": "A++"
+    },
+    { "num": 54, "opponent": "Ricky Hatton", "result": "W-KO", "tier": "A+" },
+    { "num": 55, "opponent": "Miguel Cotto", "result": "W-TKO", "tier": "S" },
+    { "num": 56, "opponent": "Joshua Clottey", "result": "W-UD", "tier": "B+" },
+    {
+      "num": 57,
+      "opponent": "Antonio Margarito",
+      "result": "W-UD",
+      "tier": "S"
+    },
+    { "num": 58, "opponent": "Shane Mosley", "result": "W-UD", "tier": "A" },
+    {
+      "num": 59,
+      "opponent": "Juan Manuel Marquez",
+      "result": "L-NOD",
+      "tier": "A++"
+    },
+    {
+      "num": 60,
+      "opponent": "Timothy Bradley Jr",
+      "result": "W-NOD",
+      "tier": "S"
+    },
+    {
+      "num": 61,
+      "opponent": "Juan Manuel Marquez",
+      "result": "L-KO",
+      "tier": "A++"
+    },
+    { "num": 62, "opponent": "Brandon Rios", "result": "W-UD", "tier": "B+" },
+    {
+      "num": 63,
+      "opponent": "Timothy Bradley Jr",
+      "result": "W-UD",
+      "tier": "S"
+    },
+    { "num": 64, "opponent": "Chris Algieri", "result": "W-UD", "tier": "B+" },
+    {
+      "num": 65,
+      "opponent": "Floyd Mayweather Jr",
+      "result": "L-UD",
+      "tier": "S"
+    },
+    {
+      "num": 66,
+      "opponent": "Timothy Bradley Jr",
+      "result": "W-UD",
+      "tier": "S"
+    },
+    { "num": 67, "opponent": "Jessie Vargas", "result": "W-UD", "tier": "A" },
+    { "num": 68, "opponent": "Jeff Horn", "result": "W-NOD", "tier": "B" },
+    {
+      "num": 69,
+      "opponent": "Lucas Martin Matthysse",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    { "num": 70, "opponent": "Adrien Broner", "result": "W-UD", "tier": "B+" },
+    { "num": 71, "opponent": "Keith Thurman", "result": "W-SD", "tier": "S" },
+    { "num": 72, "opponent": "Yordenis Ugas", "result": "L-UD", "tier": "B+" },
+    { "num": 73, "opponent": "Mario Barrios", "result": "D-MD", "tier": "S" }
+  ]
+}

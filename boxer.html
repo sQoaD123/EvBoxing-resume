@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boxer Stats</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header class="boxer-header">
+      <a href="index.html" class="back-link">← Back</a>
+      <h1 id="boxer-name">Loading...</h1>
+      <span id="boxer-country" class="country-badge"></span>
+    </header>
+
+    <main class="content">
+      <div class="profile-container">
+        <div class="profile-left">
+          <div class="photo-placeholder"></div>
+          <div class="boxrec-record">
+            <div class="record-row">
+              <div class="record-block win">
+                <span id="record-wins">0</span>
+              </div>
+              <div class="record-block loss">
+                <span id="record-losses">0</span>
+              </div>
+              <div class="record-block draw">
+                <span id="record-draws">0</span>
+              </div>
+              <div class="record-block nc" id="nc-block" style="display: none">
+                <span id="record-nc">0</span>
+              </div>
+            </div>
+            <div class="subtext-row">
+              <div class="subtext text-win">
+                <span id="record-kos">0</span> KOs
+              </div>
+              <div class="subtext text-loss">
+                <span id="record-loss-kos">0</span> KOs
+              </div>
+              <div class="subtext">&nbsp;</div>
+              <div
+                class="subtext text-nc"
+                id="nc-subtext"
+                style="display: none"
+              >
+                NC
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-right">
+          <table class="info-table">
+            <tr>
+              <td>Amount of points</td>
+              <td id="info-points">0</td>
+            </tr>
+            <tr>
+              <td>AVG per fight</td>
+              <td id="info-avg">0.00</td>
+            </tr>
+            <tr>
+              <td>Best win</td>
+              <td id="info-best-win">Loading...</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="chart-container">
+        <div class="chart-header">
+          <h2>Career Progress</h2>
+          <div class="chart-controls">
+            <div class="toggle-container">
+              <span class="toggle-label active" id="label-tiers">Tiers</span>
+              <label class="switch">
+                <input type="checkbox" id="chart-toggle" />
+                <span class="slider"></span>
+              </label>
+              <span class="toggle-label" id="label-points">Points</span>
+            </div>
+            <button id="download-chart" class="download-btn">
+              Download PNG
+            </button>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="fightsChart"></canvas>
+        </div>
+      </div>
+
+      <div class="pie-container">
+        <div class="pie-wrapper" id="win-pie-wrapper">
+          <h3>Wins Opposition Tier</h3>
+          <div class="canvas-holder">
+            <canvas id="winsPieChart"></canvas>
+          </div>
+        </div>
+
+        <div class="pie-wrapper" id="loss-pie-wrapper">
+          <h3>Losses Opposition Tier</h3>
+          <div class="canvas-holder">
+            <canvas id="lossesPieChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/boxer.js"></script>
+  </body>
+</html>

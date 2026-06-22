@@ -1,0 +1,89 @@
+{
+  "id": "hamed",
+  "name": "Prince Naseem Hamed",
+  "countryCode": "UK",
+  "fights": [
+    { "num": 1, "opponent": "Ricky Beard", "result": "W-KO", "tier": "D" },
+    { "num": 2, "opponent": "Shaun Norman", "result": "W-KO", "tier": "D" },
+    { "num": 3, "opponent": "Andrew Bloomer", "result": "W-TKO", "tier": "D" },
+    { "num": 4, "opponent": "Miguel Matthews", "result": "W-TKO", "tier": "D" },
+    { "num": 5, "opponent": "Des Gargano", "result": "W-TKO", "tier": "D" },
+    { "num": 6, "opponent": "Peter Buckley", "result": "W-PTS", "tier": "D" },
+    { "num": 7, "opponent": "Alan Ley", "result": "W-KO", "tier": "D" },
+    { "num": 8, "opponent": "Kevin Jenkins", "result": "W-TKO", "tier": "D" },
+    { "num": 9, "opponent": "Chris Clarkson", "result": "W-KO", "tier": "D" },
+    { "num": 10, "opponent": "Peter Buckley", "result": "W-TKO", "tier": "D" },
+    { "num": 11, "opponent": "John Miceli", "result": "W-KO", "tier": "D" },
+    {
+      "num": 12,
+      "opponent": "Vincenzo Belcastro",
+      "result": "W-UD",
+      "tier": "B"
+    },
+    {
+      "num": 13,
+      "opponent": "Antonio Picardi",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 14, "opponent": "Freddy Cruz", "result": "W-TKO", "tier": "B" },
+    {
+      "num": 15,
+      "opponent": "Laureano Ramirez",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 16, "opponent": "Armando Castro", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 17,
+      "opponent": "Sergio Rafael Liendo",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 18, "opponent": "Enrique Angeles", "result": "W-KO", "tier": "D" },
+    { "num": 19, "opponent": "Juan Polo Perez", "result": "W-KO", "tier": "B" },
+    {
+      "num": 20,
+      "opponent": "Steve Robinson",
+      "result": "W-TKO",
+      "tier": "A+"
+    },
+    { "num": 21, "opponent": "Said Lawal", "result": "W-KO", "tier": "D" },
+    { "num": 22, "opponent": "Daniel Alicea", "result": "W-TKO", "tier": "D" },
+    { "num": 23, "opponent": "Manuel Medina", "result": "W-TKO", "tier": "A" },
+    { "num": 24, "opponent": "Remigio Molina", "result": "W-TKO", "tier": "C" },
+    { "num": 25, "opponent": "Tom Johnson", "result": "W-TKO", "tier": "A+" },
+    { "num": 26, "opponent": "Billy Hardy", "result": "W-TKO", "tier": "B+" },
+    {
+      "num": 27,
+      "opponent": "Juan Gerardo Cabrera",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 28, "opponent": "Jose Badillo", "result": "W-TKO", "tier": "B" },
+    { "num": 29, "opponent": "Kevin Kelley", "result": "W-KO", "tier": "A+" },
+    {
+      "num": 30,
+      "opponent": "Wilfredo Vazquez",
+      "result": "W-TKO",
+      "tier": "A+"
+    },
+    {
+      "num": 31,
+      "opponent": "Wayne McCullough",
+      "result": "W-UD",
+      "tier": "B+"
+    },
+    { "num": 32, "opponent": "Paul Ingle", "result": "W-TKO", "tier": "A" },
+    { "num": 33, "opponent": "Cesar Soto", "result": "W-UD", "tier": "A" },
+    { "num": 34, "opponent": "Vuyani Bungu", "result": "W-KO", "tier": "A+" },
+    { "num": 35, "opponent": "Augie Sanchez", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 36,
+      "opponent": "Marco Antonio Barrera",
+      "result": "L-UD",
+      "tier": "S"
+    },
+    { "num": 37, "opponent": "Manuel Calvo", "result": "W-UD", "tier": "C" }
+  ]
+}

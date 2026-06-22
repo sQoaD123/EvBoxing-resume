@@ -1,0 +1,126 @@
+{
+  "id": "tyson",
+  "name": "Mike Tyson",
+  "countryCode": "USA",
+  "fights": [
+    { "num": 1, "opponent": "Hector Merced", "result": "W-TKO", "tier": "D" },
+    { "num": 2, "opponent": "Trent Singleton", "result": "W-TKO", "tier": "D" },
+    { "num": 3, "opponent": "Don Halpin", "result": "W-KO", "tier": "D" },
+    { "num": 4, "opponent": "Ricardo Spain", "result": "W-TKO", "tier": "D" },
+    { "num": 5, "opponent": "John Alderson", "result": "W-RTD", "tier": "D" },
+    { "num": 6, "opponent": "Larry Sims", "result": "W-KO", "tier": "D" },
+    { "num": 7, "opponent": "Lorenzo Canady", "result": "W-KO", "tier": "D" },
+    { "num": 8, "opponent": "Michael Johnson", "result": "W-KO", "tier": "D" },
+    { "num": 9, "opponent": "Donnie Long", "result": "W-TKO", "tier": "D" },
+    { "num": 10, "opponent": "Robert Colay", "result": "W-KO", "tier": "D" },
+    {
+      "num": 11,
+      "opponent": "Sterling Benjamin",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 12,
+      "opponent": "Eddie Richardson",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 13, "opponent": "Conroy Nelson", "result": "W-TKO", "tier": "D" },
+    { "num": 14, "opponent": "Sammy Scaff", "result": "W-TKO", "tier": "D" },
+    { "num": 15, "opponent": "Mark Young", "result": "W-TKO", "tier": "D" },
+    { "num": 16, "opponent": "David Jaco", "result": "W-TKO", "tier": "D" },
+    { "num": 17, "opponent": "Mike Jameson", "result": "W-TKO", "tier": "D" },
+    { "num": 18, "opponent": "Jesse Ferguson", "result": "W-TKO", "tier": "B" },
+    { "num": 19, "opponent": "Steve Zouski", "result": "W-KO", "tier": "D" },
+    { "num": 20, "opponent": "James Tillis", "result": "W-UD", "tier": "C" },
+    { "num": 21, "opponent": "Mitch Green", "result": "W-UD", "tier": "C" },
+    { "num": 22, "opponent": "Reggie Gross", "result": "W-TKO", "tier": "C" },
+    { "num": 23, "opponent": "William Hosea", "result": "W-KO", "tier": "D" },
+    { "num": 24, "opponent": "Lorenzo Boyd", "result": "W-KO", "tier": "D" },
+    {
+      "num": 25,
+      "opponent": "Marvis Frazier",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 26, "opponent": "Jose Ribalta", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 27,
+      "opponent": "Alfonzo Ratliff",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    { "num": 28, "opponent": "Trevor Berbick", "result": "W-TKO", "tier": "A" },
+    { "num": 29, "opponent": "James Smith", "result": "W-UD", "tier": "B+" },
+    {
+      "num": 30,
+      "opponent": "Pinklon Thomas",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 31, "opponent": "Tony Tucker", "result": "W-UD", "tier": "A+" },
+    { "num": 32, "opponent": "Tyrell Biggs", "result": "W-TKO", "tier": "C" },
+    { "num": 33, "opponent": "Larry Holmes", "result": "W-TKO", "tier": "A++" },
+    { "num": 34, "opponent": "Tony Tubbs", "result": "W-KO", "tier": "B" },
+    {
+      "num": 35,
+      "opponent": "Michael Spinks",
+      "result": "W-KO",
+      "tier": "A++"
+    },
+    { "num": 36, "opponent": "Frank Bruno", "result": "W-TKO", "tier": "B+" },
+    { "num": 37, "opponent": "Carl Williams", "result": "W-TKO", "tier": "B" },
+    { "num": 38, "opponent": "James Douglas", "result": "L-KO", "tier": "B+" },
+    { "num": 39, "opponent": "Henry Tillman", "result": "W-KO", "tier": "C" },
+    { "num": 40, "opponent": "Alex Stewart", "result": "W-TKO", "tier": "B" },
+    {
+      "num": 41,
+      "opponent": "Donovan Ruddock",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    {
+      "num": 42,
+      "opponent": "Donovan Ruddock",
+      "result": "W-UD",
+      "tier": "B+"
+    },
+    { "num": 43, "opponent": "Peter McNeeley", "result": "W-DQ", "tier": "D" },
+    {
+      "num": 44,
+      "opponent": "Buster Mathis Jr",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 45, "opponent": "Frank Bruno", "result": "W-TKO", "tier": "B+" },
+    { "num": 46, "opponent": "Bruce Seldon", "result": "W-TKO", "tier": "B" },
+    {
+      "num": 47,
+      "opponent": "Evander Holyfield",
+      "result": "L-TKO",
+      "tier": "A++"
+    },
+    {
+      "num": 48,
+      "opponent": "Evander Holyfield",
+      "result": "L-DQ",
+      "tier": "A++"
+    },
+    { "num": 49, "opponent": "Frans Botha", "result": "W-KO", "tier": "B" },
+    { "num": 50, "opponent": "Orlin Norris", "result": "NC-NC", "tier": "X" },
+    { "num": 51, "opponent": "Julius Francis", "result": "W-TKO", "tier": "C" },
+    { "num": 52, "opponent": "Lou Savarese", "result": "W-TKO", "tier": "B" },
+    { "num": 53, "opponent": "Andrew Golota", "result": "W-NOD", "tier": "B" },
+    { "num": 54, "opponent": "Brian Nielsen", "result": "W-RTD", "tier": "C" },
+    { "num": 55, "opponent": "Lennox Lewis", "result": "L-KO", "tier": "S" },
+    {
+      "num": 56,
+      "opponent": "Clifford Etienne",
+      "result": "W-KO",
+      "tier": "B"
+    },
+    { "num": 57, "opponent": "Danny Williams", "result": "L-KO", "tier": "C" },
+    { "num": 58, "opponent": "Kevin McBride", "result": "L-RTD", "tier": "D" },
+    { "num": 59, "opponent": "Jake Paul", "result": "L-UD", "tier": "D" }
+  ]
+}

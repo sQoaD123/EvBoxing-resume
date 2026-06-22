@@ -1,0 +1,75 @@
+{
+  "id": "joshua",
+  "name": "Anthony Joshua",
+  "countryCode": "UK",
+  "fights": [
+    { "num": 1, "opponent": "Emanuele Leo", "result": "W-TKO", "tier": "D" },
+    { "num": 2, "opponent": "Paul Butlin", "result": "W-TKO", "tier": "D" },
+    { "num": 3, "opponent": "Hrvoje Kisicek", "result": "W-TKO", "tier": "D" },
+    { "num": 4, "opponent": "Dorian Darch", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 5,
+      "opponent": "Hector Alfredo Avila",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 6, "opponent": "Matt Legg", "result": "W-KO", "tier": "D" },
+    { "num": 7, "opponent": "Matt Skelton", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 8,
+      "opponent": "Konstantin Airich",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 9, "opponent": "Denis Bakhtov", "result": "W-TKO", "tier": "C" },
+    { "num": 10, "opponent": "Michael Sprott", "result": "W-TKO", "tier": "D" },
+    { "num": 11, "opponent": "Jason Gavern", "result": "W-KO", "tier": "D" },
+    {
+      "num": 12,
+      "opponent": "Raphael Zumbano",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 13, "opponent": "Kevin Johnson", "result": "W-TKO", "tier": "C" },
+    { "num": 14, "opponent": "Gary Cornish", "result": "W-TKO", "tier": "C" },
+    { "num": 15, "opponent": "Dillian Whyte", "result": "W-TKO", "tier": "A" },
+    { "num": 16, "opponent": "Charles Martin", "result": "W-KO", "tier": "B" },
+    {
+      "num": 17,
+      "opponent": "Dominic Breazeale",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 18, "opponent": "Eric Molina", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 19,
+      "opponent": "Wladimir Klitschko",
+      "result": "W-TKO",
+      "tier": "A++"
+    },
+    { "num": 20, "opponent": "Carlos Takam", "result": "W-TKO", "tier": "B" },
+    { "num": 21, "opponent": "Joseph Parker", "result": "W-UD", "tier": "A" },
+    {
+      "num": 22,
+      "opponent": "Alexander Povetkin",
+      "result": "W-TKO",
+      "tier": "A"
+    },
+    { "num": 23, "opponent": "Andy Ruiz", "result": "L-TKO", "tier": "B+" },
+    { "num": 24, "opponent": "Andy Ruiz", "result": "W-UD", "tier": "B+" },
+    { "num": 25, "opponent": "Kubrat Pulev", "result": "W-KO", "tier": "B+" },
+    { "num": 26, "opponent": "Oleksandr Usyk", "result": "L-UD", "tier": "S" },
+    { "num": 27, "opponent": "Oleksandr Usyk", "result": "L-SD", "tier": "S" },
+    {
+      "num": 28,
+      "opponent": "Jermaine Franklin Jr",
+      "result": "W-UD",
+      "tier": "B"
+    },
+    { "num": 29, "opponent": "Robert Helenius", "result": "W-KO", "tier": "D" },
+    { "num": 30, "opponent": "Otto Wallin", "result": "W-RTD", "tier": "B" },
+    { "num": 31, "opponent": "Francis Ngannou", "result": "W-KO", "tier": "B" },
+    { "num": 32, "opponent": "Daniel Dubois", "result": "L-KO", "tier": "A" },
+    { "num": 33, "opponent": "Jake Paul", "result": "W-KO", "tier": "D" }
+  ]
+}

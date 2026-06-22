@@ -1,0 +1,115 @@
+{
+  "id": "inoue",
+  "name": "Naoya Inoue",
+  "countryCode": "JP",
+  "fights": [
+    { "num": 1, "opponent": "Crison Omayao", "result": "W-KO", "tier": "D" },
+    {
+      "num": 2,
+      "opponent": "Bunnam Thammakhun",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 3, "opponent": "Yuki Sano", "result": "W-TKO", "tier": "C" },
+    { "num": 4, "opponent": "Ryoichi Taguchi", "result": "W-UD", "tier": "A" },
+    { "num": 5, "opponent": "Jerson Mancio", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 6,
+      "opponent": "Adrian Hernandez",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    {
+      "num": 7,
+      "opponent": "Wittawas Basapean",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    {
+      "num": 8,
+      "opponent": "Omar Andres Narvaez",
+      "result": "W-KO",
+      "tier": "A+"
+    },
+    {
+      "num": 9,
+      "opponent": "Warlito Parrenas",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 10, "opponent": "David Carmona", "result": "W-UD", "tier": "B" },
+    {
+      "num": 11,
+      "opponent": "Karoon Jarupianlerd",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 12, "opponent": "Kohei Kono", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 13,
+      "opponent": "Ricardo Rodriguez",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 14, "opponent": "Antonio Nieves", "result": "W-RTD", "tier": "B" },
+    { "num": 15, "opponent": "Yoan Boyeaux", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 16,
+      "opponent": "Jamie McDonnell",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    {
+      "num": 17,
+      "opponent": "Juan Carlos Payano",
+      "result": "W-KO",
+      "tier": "B"
+    },
+    {
+      "num": 18,
+      "opponent": "Emmanuel Rodriguez",
+      "result": "W-KO",
+      "tier": "A"
+    },
+    {
+      "num": 19,
+      "opponent": "Nonito Donaire",
+      "result": "W-UD",
+      "tier": "A++"
+    },
+    { "num": 20, "opponent": "Jason Moloney", "result": "W-KO", "tier": "A" },
+    {
+      "num": 21,
+      "opponent": "Michael Dasmarinas",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 22, "opponent": "Aran Dipaen", "result": "W-TKO", "tier": "C" },
+    { "num": 23, "opponent": "Nonito Donaire", "result": "W-TKO", "tier": "A" },
+    { "num": 24, "opponent": "Paul Butler", "result": "W-KO", "tier": "B" },
+    {
+      "num": 25,
+      "opponent": "Stephen Fulton",
+      "result": "W-TKO",
+      "tier": "A++"
+    },
+    { "num": 26, "opponent": "Marlon Tapales", "result": "W-KO", "tier": "A" },
+    { "num": 27, "opponent": "Luis Nery", "result": "W-KO", "tier": "A" },
+    { "num": 28, "opponent": "TJ Doheny", "result": "W-TKO", "tier": "B+" },
+    { "num": 29, "opponent": "Ye Joon Kim", "result": "W-KO", "tier": "C" },
+    {
+      "num": 30,
+      "opponent": "Ramon Cardenas",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    {
+      "num": 31,
+      "opponent": "Murodjon Akhmadaliev",
+      "result": "W-UD",
+      "tier": "X"
+    },
+    { "num": 32, "opponent": "David Picasso", "result": "W-UD", "tier": "X" },
+    { "num": 33, "opponent": "Junto Nakatani", "result": "W-UD", "tier": "S" }
+  ]
+}

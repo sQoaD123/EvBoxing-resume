@@ -1,0 +1,91 @@
+{
+  "id": "lewis",
+  "name": "Lennox Lewis",
+  "countryCode": "UK",
+  "fights": [
+    { "num": 1, "opponent": "Al Malcolm", "result": "W-KO", "tier": "D" },
+    { "num": 2, "opponent": "Bruce Johnson", "result": "W-TKO", "tier": "D" },
+    { "num": 3, "opponent": "Andrew Gerrard", "result": "W-TKO", "tier": "D" },
+    { "num": 4, "opponent": "Steve Garber", "result": "W-KO", "tier": "D" },
+    { "num": 5, "opponent": "Melvin Epps", "result": "W-DQ", "tier": "D" },
+    { "num": 6, "opponent": "Greg Gorrell", "result": "W-TKO", "tier": "D" },
+    { "num": 7, "opponent": "Noel Quarless", "result": "W-TKO", "tier": "D" },
+    { "num": 8, "opponent": "Calvin Jones", "result": "W-KO", "tier": "D" },
+    {
+      "num": 9,
+      "opponent": "Michael Simuwelu",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 10,
+      "opponent": "Jorge Alfredo Dascola",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 11, "opponent": "Dan Murphy", "result": "W-TKO", "tier": "D" },
+    { "num": 12, "opponent": "Ossie Ocasio", "result": "W-PTS", "tier": "C" },
+    { "num": 13, "opponent": "Mike Acey", "result": "W-KO", "tier": "D" },
+    {
+      "num": 14,
+      "opponent": "Jean Maurice Chanet",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 15, "opponent": "Gary Mason", "result": "W-TKO", "tier": "B+" },
+    { "num": 16, "opponent": "Mike Weaver", "result": "W-KO", "tier": "B" },
+    { "num": 17, "opponent": "Glenn McCrory", "result": "W-KO", "tier": "C" },
+    { "num": 18, "opponent": "Tyrell Biggs", "result": "W-TKO", "tier": "B" },
+    { "num": 19, "opponent": "Levi Billups", "result": "W-UD", "tier": "C" },
+    { "num": 20, "opponent": "Derek Williams", "result": "W-TKO", "tier": "C" },
+    { "num": 21, "opponent": "Mike Dixon", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 22,
+      "opponent": "Donovan Ruddock",
+      "result": "W-TKO",
+      "tier": "A"
+    },
+    { "num": 23, "opponent": "Tony Tucker", "result": "W-UD", "tier": "A+" },
+    { "num": 24, "opponent": "Frank Bruno", "result": "W-TKO", "tier": "B+" },
+    { "num": 25, "opponent": "Phil Jackson", "result": "W-TKO", "tier": "C" },
+    { "num": 26, "opponent": "Oliver McCall", "result": "L-TKO", "tier": "B+" },
+    { "num": 27, "opponent": "Lionel Butler", "result": "W-TKO", "tier": "B" },
+    { "num": 28, "opponent": "Justin Fortune", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 29,
+      "opponent": "Tommy Morrison",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 30, "opponent": "Ray Mercer", "result": "W-MD", "tier": "B+" },
+    { "num": 31, "opponent": "Oliver McCall", "result": "W-TKO", "tier": "C" },
+    { "num": 32, "opponent": "Henry Akinwande", "result": "W-DQ", "tier": "A" },
+    { "num": 33, "opponent": "Andrew Golota", "result": "W-KO", "tier": "B+" },
+    { "num": 34, "opponent": "Shannon Briggs", "result": "W-TKO", "tier": "B" },
+    { "num": 35, "opponent": "Zeljko Mavrovic", "result": "W-UD", "tier": "B" },
+    {
+      "num": 36,
+      "opponent": "Evander Holyfield",
+      "result": "W-NOD",
+      "tier": "S"
+    },
+    {
+      "num": 37,
+      "opponent": "Evander Holyfield",
+      "result": "W-UD",
+      "tier": "S"
+    },
+    { "num": 38, "opponent": "Michael Grant", "result": "W-KO", "tier": "B+" },
+    { "num": 39, "opponent": "Frans Botha", "result": "W-TKO", "tier": "B" },
+    { "num": 40, "opponent": "David Tua", "result": "W-UD", "tier": "A" },
+    { "num": 41, "opponent": "Hasim Rahman", "result": "L-KO", "tier": "B+" },
+    { "num": 42, "opponent": "Hasim Rahman", "result": "W-KO", "tier": "B+" },
+    { "num": 43, "opponent": "Mike Tyson", "result": "W-KO", "tier": "A" },
+    {
+      "num": 44,
+      "opponent": "Vitali Klitschko",
+      "result": "W-RTD",
+      "tier": "S"
+    }
+  ]
+}

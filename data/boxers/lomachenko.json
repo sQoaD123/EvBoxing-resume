@@ -1,0 +1,68 @@
+{
+  "id": "lomachenko",
+  "name": "Vasyl Lomachenko",
+  "countryCode": "UA",
+  "fights": [
+    {
+      "num": 1,
+      "opponent": "Jose Luis Ramirez",
+      "result": "W-KO",
+      "tier": "B"
+    },
+    { "num": 2, "opponent": "Orlando Salido", "result": "L-SD", "tier": "A" },
+    {
+      "num": 3,
+      "opponent": "Gary Allen Russell Jr",
+      "result": "W-MD",
+      "tier": "A++"
+    },
+    { "num": 4, "opponent": "Suriya Tatakhun", "result": "W-UD", "tier": "B" },
+    {
+      "num": 5,
+      "opponent": "Gamalier Rodriguez",
+      "result": "W-KO",
+      "tier": "B"
+    },
+    { "num": 6, "opponent": "Romulo Koasicha", "result": "W-KO", "tier": "C" },
+    { "num": 7, "opponent": "Roman Martinez", "result": "W-KO", "tier": "A" },
+    {
+      "num": 8,
+      "opponent": "Nicholas Walters",
+      "result": "W-RTD",
+      "tier": "A+"
+    },
+    { "num": 9, "opponent": "Jason Sosa", "result": "W-RTD", "tier": "B+" },
+    {
+      "num": 10,
+      "opponent": "Miguel Marriaga",
+      "result": "W-RTD",
+      "tier": "B"
+    },
+    {
+      "num": 11,
+      "opponent": "Guillermo Rigondeaux",
+      "result": "W-RTD",
+      "tier": "A"
+    },
+    { "num": 12, "opponent": "Jorge Linares", "result": "W-TKO", "tier": "A+" },
+    { "num": 13, "opponent": "Jose Pedraza", "result": "W-UD", "tier": "A" },
+    { "num": 14, "opponent": "Anthony Crolla", "result": "W-KO", "tier": "B+" },
+    { "num": 15, "opponent": "Luke Campbell", "result": "W-UD", "tier": "B+" },
+    { "num": 16, "opponent": "Teofimo Lopez", "result": "L-UD", "tier": "A+" },
+    {
+      "num": 17,
+      "opponent": "Masayoshi Nakatani",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 18, "opponent": "Richard Commey", "result": "W-UD", "tier": "B+" },
+    { "num": 19, "opponent": "Jamaine Ortiz", "result": "W-UD", "tier": "A" },
+    { "num": 20, "opponent": "Devin Haney", "result": "L-UD", "tier": "A++" },
+    {
+      "num": 21,
+      "opponent": "George Kambosos Jr",
+      "result": "W-TKO",
+      "tier": "B"
+    }
+  ]
+}

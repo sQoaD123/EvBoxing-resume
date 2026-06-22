@@ -1,0 +1,89 @@
+{
+  "id": "davis",
+  "name": "Gervonta Davis",
+  "countryCode": "USA",
+  "fights": [
+    { "num": 1, "opponent": "Desi Williams", "result": "W-KO", "tier": "D" },
+    { "num": 2, "opponent": "Jacob Ninow", "result": "W-TKO", "tier": "D" },
+    { "num": 3, "opponent": "Jonathan Gears", "result": "W-KO", "tier": "D" },
+    { "num": 4, "opponent": "Rafael Casias", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 5,
+      "opponent": "Eric Jamar Goodall",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 6, "opponent": "James Franks", "result": "W-TKO", "tier": "D" },
+    { "num": 7, "opponent": "Joshua Arocho", "result": "W-RTD", "tier": "D" },
+    { "num": 8, "opponent": "Hector Lopez", "result": "W-KO", "tier": "D" },
+    {
+      "num": 9,
+      "opponent": "German Ivan Meraz",
+      "result": "W-UD",
+      "tier": "D"
+    },
+    {
+      "num": 10,
+      "opponent": "Israel Suarez Olmeda",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 11, "opponent": "Alberto Mora", "result": "W-TKO", "tier": "D" },
+    { "num": 12, "opponent": "Recky Dulay", "result": "W-TKO", "tier": "D" },
+    { "num": 13, "opponent": "Cristobal Cruz", "result": "W-TKO", "tier": "D" },
+    { "num": 14, "opponent": "Luis Sanchez", "result": "W-KO", "tier": "D" },
+    {
+      "num": 15,
+      "opponent": "Guillermo Avila Godinez",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 16,
+      "opponent": "Mario Antonio Macias",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 17, "opponent": "Jose Pedraza", "result": "W-TKO", "tier": "A" },
+    { "num": 18, "opponent": "Liam Walsh", "result": "W-TKO", "tier": "B" },
+    {
+      "num": 19,
+      "opponent": "Francisco Fonseca",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    {
+      "num": 20,
+      "opponent": "Jesus Marcelo Andres Cuellar",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 21, "opponent": "Hugo Ruiz", "result": "W-KO", "tier": "C" },
+    { "num": 22, "opponent": "Ricardo Nunez", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 23,
+      "opponent": "Yuriorkis Gamboa",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 24, "opponent": "Leo Santa Cruz", "result": "W-KO", "tier": "A" },
+    { "num": 25, "opponent": "Mario Barrios", "result": "W-TKO", "tier": "B+" },
+    { "num": 26, "opponent": "Isaac Cruz", "result": "W-UD", "tier": "B+" },
+    {
+      "num": 27,
+      "collapse": false,
+      "opponent": "Rolando Romero",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    {
+      "num": 28,
+      "opponent": "Hector Luis Garcia",
+      "result": "W-TKO",
+      "tier": "A"
+    },
+    { "num": 29, "opponent": "Ryan Garcia", "result": "W-KO", "tier": "A" },
+    { "num": 30, "opponent": "Frank Martin", "result": "W-KO", "tier": "B+" },
+    { "num": 31, "opponent": "Lamont Roach", "result": "L-NOD", "tier": "A+" }
+  ]
+}

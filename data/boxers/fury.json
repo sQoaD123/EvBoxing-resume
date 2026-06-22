@@ -1,0 +1,105 @@
+{
+  "id": "fury",
+  "name": "Tyson Fury",
+  "countryCode": "UK",
+  "fights": [
+    { "num": 1, "opponent": "Bela Gyongyosi", "result": "W-TKO", "tier": "D" },
+    { "num": 2, "opponent": "Marcel Zeller", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 3,
+      "opponent": "Daniil Peretyatko",
+      "result": "W-RTD",
+      "tier": "D"
+    },
+    { "num": 4, "opponent": "Lee Swaby", "result": "W-RTD", "tier": "D" },
+    { "num": 5, "opponent": "Mathew Ellis", "result": "W-KO", "tier": "D" },
+    { "num": 6, "opponent": "Scott Belshaw", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 7,
+      "opponent": "Aleksandrs Selezens",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 8, "opponent": "John McDermott", "result": "W-PTS", "tier": "C" },
+    { "num": 9, "opponent": "Tomas Mrazek", "result": "W-PTS", "tier": "D" },
+    {
+      "num": 10,
+      "opponent": "Hans Joerg Blasko",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 11, "opponent": "John McDermott", "result": "W-TKO", "tier": "C" },
+    { "num": 12, "opponent": "Rich Power", "result": "W-PTS", "tier": "D" },
+    { "num": 13, "opponent": "Zack Page", "result": "W-UD", "tier": "C" },
+    {
+      "num": 14,
+      "opponent": "Marcelo Nascimento",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 15, "opponent": "Derek Chisora", "result": "W-UD", "tier": "B+" },
+    { "num": 16, "opponent": "Nicolai Firtha", "result": "W-TKO", "tier": "D" },
+    { "num": 17, "opponent": "Neven Pajkic", "result": "W-TKO", "tier": "C" },
+    { "num": 18, "opponent": "Martin Rogan", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 19,
+      "opponent": "Vinny Maddalone",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 20, "opponent": "Kevin Johnson", "result": "W-UD", "tier": "B" },
+    {
+      "num": 21,
+      "opponent": "Steve Cunningham",
+      "result": "W-KO",
+      "tier": "B+"
+    },
+    { "num": 22, "opponent": "Joey Abell", "result": "W-TKO", "tier": "C" },
+    { "num": 23, "opponent": "Derek Chisora", "result": "W-RTD", "tier": "B+" },
+    {
+      "num": 24,
+      "opponent": "Christian Hammer",
+      "result": "W-RTD",
+      "tier": "B"
+    },
+    {
+      "num": 25,
+      "opponent": "Wladimir Klitschko",
+      "result": "W-UD",
+      "tier": "S"
+    },
+    { "num": 26, "opponent": "Sefer Seferi", "result": "W-RTD", "tier": "C" },
+    {
+      "num": 27,
+      "opponent": "Francesco Pianeta",
+      "result": "W-PTS",
+      "tier": "C"
+    },
+    {
+      "num": 28,
+      "opponent": "Deontay Wilder",
+      "result": "W-NOD",
+      "tier": "A+"
+    },
+    { "num": 29, "opponent": "Tom Schwarz", "result": "W-TKO", "tier": "C" },
+    { "num": 30, "opponent": "Otto Wallin", "result": "W-UD", "tier": "B" },
+    {
+      "num": 31,
+      "opponent": "Deontay Wilder",
+      "result": "W-TKO",
+      "tier": "A+"
+    },
+    { "num": 32, "opponent": "Deontay Wilder", "result": "W-KO", "tier": "A+" },
+    { "num": 33, "opponent": "Dillian Whyte", "result": "W-TKO", "tier": "A" },
+    { "num": 34, "opponent": "Derek Chisora", "result": "W-TKO", "tier": "B" },
+    { "num": 35, "opponent": "Francis Ngannou", "result": "W-SD", "tier": "D" },
+    { "num": 36, "opponent": "Oleksandr Usyk", "result": "L-SD", "tier": "S" },
+    { "num": 37, "opponent": "Oleksandr Usyk", "result": "L-UD", "tier": "S" },
+    {
+      "num": 38,
+      "opponent": "Arslanbek Makhmudov",
+      "result": "W-UD",
+      "tier": "B"
+    }
+  ]
+}

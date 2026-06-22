@@ -1,0 +1,63 @@
+{
+  "id": "usyk",
+  "name": "Oleksandr Usyk",
+  "countryCode": "UA",
+  "fights": [
+    { "num": 1, "opponent": "Felipe Romero", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 2,
+      "opponent": "Epifanio Mendoza",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 3, "opponent": "Ben Nsafoah", "result": "W-KO", "tier": "D" },
+    {
+      "num": 4,
+      "opponent": "Cesar David Crenz",
+      "result": "W-KO",
+      "tier": "D"
+    },
+    { "num": 5, "opponent": "Daniel Bruwer", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 6,
+      "opponent": "Danie Venter",
+      "withdrawn": false,
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 7, "opponent": "Andrei Kniazev", "result": "W-TKO", "tier": "D" },
+    { "num": 8, "opponent": "Johnny Muller", "result": "W-TKO", "tier": "B" },
+    {
+      "num": 9,
+      "opponent": "Pedro Julio Rodriguez",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 10,
+      "opponent": "Krzysztof Glowacki",
+      "result": "W-UD",
+      "tier": "A+"
+    },
+    { "num": 11, "opponent": "Thabiso Mchunu", "result": "W-KO", "tier": "B+" },
+    { "num": 12, "opponent": "Michael Hunter", "result": "W-UD", "tier": "B+" },
+    { "num": 13, "opponent": "Marco Huck", "result": "W-TKO", "tier": "A" },
+    { "num": 14, "opponent": "Mairis Briedis", "result": "W-MD", "tier": "S" },
+    { "num": 15, "opponent": "Murat Gassiev", "result": "W-UD", "tier": "A++" },
+    { "num": 16, "opponent": "Tony Bellew", "result": "W-TKO", "tier": "A" },
+    {
+      "num": 17,
+      "opponent": "Chazz Witherspoon",
+      "result": "W-RTD",
+      "tier": "C"
+    },
+    { "num": 18, "opponent": "Derek Chisora", "result": "W-UD", "tier": "A" },
+    { "num": 19, "opponent": "Anthony Joshua", "result": "W-UD", "tier": "S" },
+    { "num": 20, "opponent": "Anthony Joshua", "result": "W-SD", "tier": "S" },
+    { "num": 21, "opponent": "Daniel Dubois", "result": "W-KO", "tier": "A+" },
+    { "num": 22, "opponent": "Tyson Fury", "result": "W-SD", "tier": "S" },
+    { "num": 23, "opponent": "Tyson Fury", "result": "W-UD", "tier": "S" },
+    { "num": 24, "opponent": "Daniel Dubois", "result": "W-KO", "tier": "A+" },
+    { "num": 25, "opponent": "Rico Verhoeven", "result": "L-NOD", "tier": "X" }
+  ]
+}

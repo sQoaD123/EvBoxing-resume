@@ -1,0 +1,520 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.boxer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 40px auto;
+  position: relative;
+  border-bottom: 1px solid #222;
+  padding-bottom: 20px;
+}
+
+#boxer-name {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.back-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.back-link:hover {
+  color: #fff;
+}
+
+.country-badge {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #888;
+  border: 1px solid #333;
+  padding: 4px 8px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+}
+/* Container Layout */
+/* Container Layout */
+.profile-container {
+  display: flex;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  align-items: stretch; /* Змушує обидві колонки мати однакову висоту */
+}
+
+.profile-left {
+  flex: 0 0 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-right {
+  flex: 1;
+  display: flex; /* Робимо флекс-контейнером, щоб таблиця всередині слухалась висоти */
+}
+
+/* Photo Placeholder */
+.photo-placeholder {
+  width: 220px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* BoxRec Record Widget */
+.boxrec-record {
+  width: 100%;
+  max-width: 240px;
+}
+
+.record-row {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 4px;
+}
+
+.record-block {
+  flex: 1;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* Завжди закругляємо лівий край (перемоги) */
+.record-block:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* За замовчуванням закругляємо правий край у блоку нічиїх (draw) */
+.record-block.draw {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* ЯКЩО є NC: прибираємо закруглення у нічиїх і віддаємо його блоку NC */
+.record-row.has-nc .record-block.draw {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.record-row.has-nc .record-block.nc {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Кольори BoxRec */
+.win {
+  background-color: #008000;
+}
+.loss {
+  background-color: #cc0000;
+}
+.draw {
+  background-color: #66b2ff;
+}
+.nc {
+  background-color: #555555;
+}
+
+/* Subtext row */
+.subtext-row {
+  display: flex;
+  gap: 2px;
+}
+
+.subtext {
+  flex: 1;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.text-win {
+  color: #008000;
+}
+.text-loss {
+  color: #cc0000;
+}
+.text-nc {
+  color: #888888;
+}
+
+/* Таблиця на всю висоту */
+.info-table {
+  width: 100%;
+  height: 100%; /* Розтягується на всю доступну висоту блоку */
+  border-collapse: collapse;
+}
+
+.info-table tr {
+  /* Рівномірно розподіляємо висоту між трьома рядками */
+  height: 33.33%;
+}
+
+.info-table td {
+  border-bottom: 1px solid #222;
+  padding: 10px;
+  vertical-align: middle; /* Центрування тексту по вертикалі всередині комірки */
+}
+
+.info-table tr:last-child td {
+  border-bottom: none; /* Прибираємо нижню лінію у останнього рядка для чистоти */
+}
+
+.info-table td:first-child {
+  color: #666;
+  width: 40%;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+/* Блок графіка */
+.chart-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #222;
+  padding-bottom: 10px;
+}
+
+.chart-header h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  color: #fff;
+}
+
+/* Кнопка завантаження */
+.download-btn {
+  background-color: transparent;
+  color: #888;
+  border: 1px solid #333;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  color: #fff;
+  border-color: #666;
+  background-color: #111;
+}
+
+/* Обгортка для самого Canvas */
+.chart-wrapper {
+  background-color: #050505;
+  border: 1px solid #111;
+  border-radius: 6px;
+  padding: 20px;
+  position: relative;
+  height: 360px; /* Збільшуємо висоту, щоб усім 9 тірам було просторо */
+}
+/* Керування елементами графіка */
+.chart-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+.toggle-label {
+  color: #444;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+
+.toggle-label.active {
+  color: #fff;
+}
+
+/* Базовий контейнер свіча */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 36px;
+  height: 20px;
+}
+
+/* Ховаємо дефолтний чекбокс */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Стиль самого треку повзунка */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+/* Кружальце всередині */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #666;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+/* Анімація перемикання */
+input:checked + .slider {
+  background-color: #000;
+  border-color: #555;
+}
+
+input:checked + .slider:before {
+  transform: translateX(16px);
+  background-color: #fff;
+}
+/* Блок кругових діаграм */
+.pie-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 50px auto 80px auto; /* Робимо відступ знизу */
+  padding: 0 20px;
+  flex-wrap: wrap; /* Для адаптивності на мобільних */
+}
+
+.pie-wrapper {
+  flex: 1;
+  min-width: 280px;
+  max-width: 385px;
+  background-color: #050505;
+  border: 1px solid #111;
+  border-radius: 6px;
+  padding: 25px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.pie-wrapper h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #888;
+}
+
+.canvas-holder {
+  position: relative;
+  height: 260px; /* Фіксована висота для кругових чартів */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Styles for the Main Landing Page */
+.main-header {
+  text-align: center;
+  max-width: 1000px;
+  margin: 40px auto 60px auto;
+  padding: 0 20px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.nav-link {
+  color: #888;
+  text-decoration: none;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid #222;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #050505;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fff;
+  border-color: #555;
+  background-color: #111;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0 0 15px 0;
+  font-weight: 800;
+}
+
+.main-subtitle {
+  color: #555;
+  font-size: 1rem;
+  margin: 0;
+  letter-spacing: 0.5px;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto 80px auto;
+  padding: 0 20px;
+}
+
+/* Створення гнучкої сітки карток (CSS Grid) */
+.boxer-grid {
+  display: grid;
+  /* Автоматично створює колонки шириною від 280px, скільки влазить в екран */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Стиль картки боксера */
+.boxer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #050505;
+  border: 1px solid #111;
+  padding: 22px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Ефект інтерактивності при наведенні */
+.boxer-card:hover {
+  border-color: #333;
+  background-color: #0c0c0c;
+  transform: translateY(-3px); /* Ефект легкого підняття вгору */
+}
+
+.boxer-card-name {
+  color: #fff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: color 0.3s;
+}
+
+.boxer-card:hover .boxer-card-name {
+  color: #fff;
+}
+
+/* Бейдж країни всередині картки */
+.boxer-card-country {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #555;
+  background-color: #000;
+  border: 1px solid #1a1a1a;
+  padding: 4px 8px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.boxer-card:hover .boxer-card-country {
+  color: #fff;
+  border-color: #444;
+  background-color: #050505;
+}
+
+/* Leaderboard Styles */
+.leaderboard-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.rank-btn {
+  background-color: #050505;
+  color: #666;
+  border: 1px solid #111;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.rank-btn:hover {
+  color: #fff;
+  border-color: #333;
+}
+
+.rank-btn.active {
+  color: #fff;
+  background-color: #111;
+  border-color: #666;
+}
+
+.leaderboard-wrapper {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  height: 500px; /* Велика висота для зручного перегляду 14 боксерів */
+}

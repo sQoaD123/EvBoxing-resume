@@ -1,0 +1,117 @@
+{
+  "id": "wilder",
+  "name": "Deontay Wilder",
+  "countryCode": "USA",
+  "fights": [
+    { "num": 1, "opponent": "Ethan Cox", "result": "W-TKO", "tier": "D" },
+    { "num": 2, "opponent": "Shannon Gray", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 3,
+      "opponent": "Richard Greene Jr",
+      "result": "W-RTD",
+      "tier": "D"
+    },
+    { "num": 4, "opponent": "Joseph Rabotte", "result": "W-KO", "tier": "D" },
+    { "num": 5, "opponent": "Charles Brown", "result": "W-KO", "tier": "D" },
+    { "num": 6, "opponent": "Kelsey Arnold", "result": "W-KO", "tier": "D" },
+    { "num": 7, "opponent": "Travis Allen", "result": "W-TKO", "tier": "D" },
+    { "num": 8, "opponent": "Jerry Vaughn", "result": "W-KO", "tier": "D" },
+    { "num": 9, "opponent": "Ty Cobb", "result": "W-KO", "tier": "D" },
+    { "num": 10, "opponent": "Alvaro Morales", "result": "W-TKO", "tier": "D" },
+    { "num": 11, "opponent": "Dustin Nichols", "result": "W-RTD", "tier": "D" },
+    { "num": 12, "opponent": "Shannon Caudle", "result": "W-KO", "tier": "D" },
+    {
+      "num": 13,
+      "opponent": "Harold Sconiers",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 14, "opponent": "Dan Sheehan", "result": "W-KO", "tier": "D" },
+    { "num": 15, "opponent": "DeAndrey Abron", "result": "W-TKO", "tier": "D" },
+    { "num": 16, "opponent": "Reggie Pena", "result": "W-TKO", "tier": "D" },
+    { "num": 17, "opponent": "Damon Reed", "result": "W-KO", "tier": "D" },
+    {
+      "num": 18,
+      "opponent": "Dominique Alexander",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 19, "opponent": "Daniel Cota", "result": "W-KO", "tier": "D" },
+    { "num": 20, "opponent": "David Long", "result": "W-KO", "tier": "D" },
+    { "num": 21, "opponent": "Marlon Hayes", "result": "W-TKO", "tier": "D" },
+    { "num": 22, "opponent": "Jesse Oltmanns", "result": "W-TKO", "tier": "D" },
+    { "num": 23, "opponent": "Owen Beck", "result": "W-RTD", "tier": "D" },
+    {
+      "num": 24,
+      "opponent": "Kertson Manswell",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 25, "opponent": "Damon McCreary", "result": "W-KO", "tier": "D" },
+    { "num": 26, "opponent": "Kelvin Price", "result": "W-KO", "tier": "C" },
+    { "num": 27, "opponent": "Matthew Greer", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 28,
+      "opponent": "Audley Harrison",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    {
+      "num": 29,
+      "opponent": "Siarhei Liakhovich",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 30, "opponent": "Nicolai Firtha", "result": "W-KO", "tier": "D" },
+    { "num": 31, "opponent": "Malik Scott", "result": "W-KO", "tier": "B" },
+    { "num": 32, "opponent": "Jason Gavern", "result": "W-RTD", "tier": "D" },
+    {
+      "num": 33,
+      "opponent": "Bermane Stiverne",
+      "result": "W-UD",
+      "tier": "B"
+    },
+    { "num": 34, "opponent": "Eric Molina", "result": "W-KO", "tier": "C" },
+    {
+      "num": 35,
+      "opponent": "Johann Duhaupas",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    { "num": 36, "opponent": "Artur Szpilka", "result": "W-KO", "tier": "C" },
+    { "num": 37, "opponent": "Chris Arreola", "result": "W-RTD", "tier": "B" },
+    {
+      "num": 38,
+      "opponent": "Gerald Washington",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    {
+      "num": 39,
+      "opponent": "Bermane Stiverne",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 40, "opponent": "Luis Ortiz", "result": "W-TKO", "tier": "A" },
+    { "num": 41, "opponent": "Tyson Fury", "result": "L-NOD", "tier": "A++" },
+    {
+      "num": 42,
+      "opponent": "Dominic Breazeale",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 43, "opponent": "Luis Ortiz", "result": "W-KO", "tier": "A" },
+    { "num": 44, "opponent": "Tyson Fury", "result": "L-TKO", "tier": "A++" },
+    { "num": 45, "opponent": "Tyson Fury", "result": "L-KO", "tier": "A++" },
+    { "num": 46, "opponent": "Robert Helenius", "result": "W-KO", "tier": "C" },
+    { "num": 47, "opponent": "Joseph Parker", "result": "L-UD", "tier": "A" },
+    { "num": 48, "opponent": "Zhilei Zhang", "result": "L-TKO", "tier": "B+" },
+    {
+      "num": 49,
+      "opponent": "Tyrrell Anthony Herndon",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 50, "opponent": "Derek Chisora", "result": "W-SD", "tier": "X" }
+  ]
+}

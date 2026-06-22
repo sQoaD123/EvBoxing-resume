@@ -1,0 +1,87 @@
+{
+  "id": "leonard",
+  "name": "Sugar Ray Leonard",
+  "countryCode": "USA",
+  "fights": [
+    { "num": 1, "opponent": "Luis Vega", "result": "W-UD", "tier": "D" },
+    { "num": 2, "opponent": "Willie Rodriguez", "result": "W-UD", "tier": "C" },
+    { "num": 3, "opponent": "Vinnie DeBarros", "result": "W-TKO", "tier": "D" },
+    { "num": 4, "opponent": "Frank Santore Jr", "result": "W-KO", "tier": "D" },
+    { "num": 5, "opponent": "Augustin Estrada", "result": "W-KO", "tier": "D" },
+    { "num": 6, "opponent": "Hector Diaz", "result": "W-KO", "tier": "D" },
+    { "num": 7, "opponent": "Rocky Ramon", "result": "W-UD", "tier": "C" },
+    { "num": 8, "opponent": "Art McKnight", "result": "W-TKO", "tier": "D" },
+    { "num": 9, "opponent": "Javier Muniz", "result": "W-KO", "tier": "C" },
+    { "num": 10, "opponent": "Bobby Haymon", "result": "W-RTD", "tier": "D" },
+    { "num": 11, "opponent": "Randy Milton", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 12,
+      "opponent": "Rafael Rodriguez",
+      "result": "W-UD",
+      "tier": "D"
+    },
+    { "num": 13, "opponent": "Dick Eklund", "result": "W-UD", "tier": "D" },
+    {
+      "num": 14,
+      "opponent": "Floyd Mayweather",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 15, "opponent": "Randy Shields", "result": "W-UD", "tier": "B+" },
+    { "num": 16, "opponent": "Bernardo Prada", "result": "W-UD", "tier": "D" },
+    { "num": 17, "opponent": "Armando Muniz", "result": "W-RTD", "tier": "B+" },
+    { "num": 18, "opponent": "Johnny Gant", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 19,
+      "opponent": "Fernand Marcotte",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    {
+      "num": 20,
+      "opponent": "Daniel Aldo Gonzalez",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 21, "opponent": "Adolfo Viruet", "result": "W-UD", "tier": "C" },
+    { "num": 22, "opponent": "Marcos Geraldo", "result": "W-UD", "tier": "C" },
+    {
+      "num": 23,
+      "opponent": "Tony Chiaverini",
+      "result": "W-RTD",
+      "tier": "C"
+    },
+    { "num": 24, "opponent": "Pete Ranzany", "result": "W-TKO", "tier": "B+" },
+    { "num": 25, "opponent": "Andy Price", "result": "W-KO", "tier": "B" },
+    {
+      "num": 26,
+      "opponent": "Wilfred Benitez",
+      "result": "W-TKO",
+      "tier": "S"
+    },
+    {
+      "num": 27,
+      "opponent": "Dave 'Boy' Green",
+      "result": "W-KO",
+      "tier": "C"
+    },
+    { "num": 28, "opponent": "Roberto Duran", "result": "L-UD", "tier": "S" },
+    {
+      "num": 29,
+      "opponent": "Roberto Duran",
+      "result": "W-TKO",
+      "tier": "A++"
+    },
+    { "num": 30, "opponent": "Larry Bonds", "result": "W-TKO", "tier": "C" },
+    { "num": 31, "opponent": "Ayub Kalule", "result": "W-TKO", "tier": "A" },
+    { "num": 32, "opponent": "Thomas Hearns", "result": "W-TKO", "tier": "S+" },
+    { "num": 33, "opponent": "Bruce Finch", "result": "W-TKO", "tier": "C" },
+    { "num": 34, "opponent": "Kevin Howard", "result": "W-TKO", "tier": "C" },
+    { "num": 35, "opponent": "Marvin Hagler", "result": "W-SD", "tier": "S+" },
+    { "num": 36, "opponent": "Donny Lalonde", "result": "W-TKO", "tier": "A+" },
+    { "num": 37, "opponent": "Thomas Hearns", "result": "L-NOD", "tier": "S" },
+    { "num": 38, "opponent": "Roberto Duran", "result": "W-UD", "tier": "A" },
+    { "num": 39, "opponent": "Terry Norris", "result": "L-UD", "tier": "A+" },
+    { "num": 40, "opponent": "Hector Camacho", "result": "L-TKO", "tier": "B+" }
+  ]
+}

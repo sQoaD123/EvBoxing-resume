@@ -1,0 +1,147 @@
+{
+  "id": "mayweather",
+  "name": "Floyd Mayweather Jr.",
+  "countryCode": "USA",
+  "fights": [
+    { "num": 1, "opponent": "Roberto Apodaca", "result": "W-TKO", "tier": "D" },
+    { "num": 2, "opponent": "Reggie Sanders", "result": "W-UD", "tier": "D" },
+    { "num": 3, "opponent": "Jerry Cooper", "result": "W-TKO", "tier": "D" },
+    { "num": 4, "opponent": "Edgar Ayala", "result": "W-TKO", "tier": "D" },
+    { "num": 5, "opponent": "Kino Rodriguez", "result": "W-TKO", "tier": "D" },
+    { "num": 6, "opponent": "Bobby Giepert", "result": "W-TKO", "tier": "D" },
+    { "num": 7, "opponent": "Tony Duran", "result": "W-TKO", "tier": "D" },
+    { "num": 8, "opponent": "Larry O'Shields", "result": "W-UD", "tier": "D" },
+    { "num": 9, "opponent": "Jesus Chavez", "result": "W-TKO", "tier": "D" },
+    { "num": 10, "opponent": "Louie Leija", "result": "W-TKO", "tier": "D" },
+    { "num": 11, "opponent": "Felipe Garcia", "result": "W-KO", "tier": "D" },
+    { "num": 12, "opponent": "Angelo Nunez", "result": "W-TKO", "tier": "D" },
+    { "num": 13, "opponent": "Hector Arroyo", "result": "W-TKO", "tier": "D" },
+    { "num": 14, "opponent": "Sam Girard", "result": "W-KO", "tier": "D" },
+    { "num": 15, "opponent": "Miguel Melo", "result": "W-TKO", "tier": "D" },
+    {
+      "num": 16,
+      "opponent": "Gustavo Fabian Cuello",
+      "result": "W-UD",
+      "tier": "D"
+    },
+    { "num": 17, "opponent": "Tony Pep", "result": "W-UD", "tier": "B" },
+    {
+      "num": 18,
+      "opponent": "Genaro Hernandez",
+      "result": "W-RTD",
+      "tier": "A+"
+    },
+    {
+      "num": 19,
+      "opponent": "Angel Manfredy",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 20, "opponent": "Carlos Rios", "result": "W-UD", "tier": "C" },
+    { "num": 21, "opponent": "Justin Juuko", "result": "W-KO", "tier": "C" },
+    { "num": 22, "opponent": "Carlos Gerena", "result": "W-RTD", "tier": "B" },
+    {
+      "num": 23,
+      "opponent": "Gregorio Vargas",
+      "result": "W-UD",
+      "tier": "B+"
+    },
+    {
+      "num": 24,
+      "opponent": "Emanuel Augustus",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    {
+      "num": 25,
+      "opponent": "Diego Corrales",
+      "result": "W-TKO",
+      "tier": "A++"
+    },
+    {
+      "num": 26,
+      "opponent": "Carlos Hernandez",
+      "result": "W-UD",
+      "tier": "B"
+    },
+    { "num": 27, "opponent": "Jesus Chavez", "result": "W-RTD", "tier": "B+" },
+    {
+      "num": 28,
+      "opponent": "Jose Luis Castillo",
+      "result": "W-UD",
+      "tier": "A"
+    },
+    {
+      "num": 29,
+      "opponent": "Jose Luis Castillo",
+      "result": "W-UD",
+      "tier": "A"
+    },
+    { "num": 30, "opponent": "Victoriano Sosa", "result": "W-UD", "tier": "B" },
+    { "num": 31, "opponent": "Phillip Ndou", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 32,
+      "opponent": "DeMarcus Corley",
+      "result": "W-UD",
+      "tier": "B+"
+    },
+    { "num": 33, "opponent": "Henry Bruseles", "result": "W-TKO", "tier": "C" },
+    { "num": 34, "opponent": "Arturo Gatti", "result": "W-RTD", "tier": "A" },
+    {
+      "num": 35,
+      "opponent": "Sharmba Mitchell",
+      "result": "W-TKO",
+      "tier": "B+"
+    },
+    { "num": 36, "opponent": "Zab Judah", "result": "W-UD", "tier": "A" },
+    {
+      "num": 37,
+      "opponent": "Carlos Manuel Baldomir",
+      "result": "W-UD",
+      "tier": "A"
+    },
+    {
+      "num": 38,
+      "opponent": "Oscar De La Hoya",
+      "result": "W-SD",
+      "tier": "S"
+    },
+    { "num": 39, "opponent": "Ricky Hatton", "result": "W-TKO", "tier": "A+" },
+    {
+      "num": 40,
+      "opponent": "Juan Manuel Marquez",
+      "result": "W-UD",
+      "tier": "A"
+    },
+    { "num": 41, "opponent": "Shane Mosley", "result": "W-UD", "tier": "A" },
+    { "num": 42, "opponent": "Victor Ortiz", "result": "W-KO", "tier": "B+" },
+    { "num": 43, "opponent": "Miguel Cotto", "result": "W-UD", "tier": "A++" },
+    {
+      "num": 44,
+      "opponent": "Robert Guerrero",
+      "result": "W-UD",
+      "tier": "B+"
+    },
+    {
+      "num": 45,
+      "opponent": "Saul Canelo Alvarez",
+      "result": "W-MD",
+      "tier": "A++"
+    },
+    {
+      "num": 46,
+      "opponent": "Marcos Maidana",
+      "result": "W-MD",
+      "tier": "A+"
+    },
+    {
+      "num": 47,
+      "opponent": "Marcos Maidana",
+      "result": "W-UD",
+      "tier": "A+"
+    },
+    { "num": 48, "opponent": "Manny Pacquiao", "result": "W-UD", "tier": "S" },
+    { "num": 49, "opponent": "Andre Berto", "result": "W-UD", "tier": "B" },
+    { "num": 50, "opponent": "Conor McGregor", "result": "W-TKO", "tier": "D" }
+  ]
+}
