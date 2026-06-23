@@ -514,7 +514,7 @@ input:checked + .slider:before {
 }
 
 .leaderboard-wrapper {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto 60px auto;
-  height: 500px; /* Велика висота для зручного перегляду 14 боксерів */
+  height: 520px; /* Велика висота для зручного перегляду 14 боксерів */
 }

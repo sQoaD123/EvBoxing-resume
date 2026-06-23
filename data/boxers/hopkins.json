@@ -1,0 +1,124 @@
+{
+  "id": "hopkins",
+  "name": "Bernard Hopkins",
+  "countryCode": "USA",
+  "fights": [
+    { "num": 1, "opponent": "Clinton Mitchell", "result": "L-MD", "tier": "D" },
+    { "num": 2, "opponent": "Greg Paige", "result": "W-UD", "tier": "D" },
+    { "num": 3, "opponent": "Keith Gray", "result": "W-TKO", "tier": "D" },
+    { "num": 4, "opponent": "Eddie Tyler", "result": "W-TKO", "tier": "D" },
+    { "num": 5, "opponent": "Jouvin Mercado", "result": "W-TKO", "tier": "D" },
+    { "num": 6, "opponent": "Khalif Shabazz", "result": "W-KO", "tier": "D" },
+    { "num": 7, "opponent": "Percy Harris", "result": "W-UD", "tier": "C" },
+    { "num": 8, "opponent": "Darrin Oliver", "result": "W-TKO", "tier": "D" },
+    { "num": 9, "opponent": "Mike Sapp", "result": "W-TKO", "tier": "D" },
+    { "num": 10, "opponent": "Richard Quiles", "result": "W-KO", "tier": "D" },
+    { "num": 11, "opponent": "Steve Langley", "result": "W-TKO", "tier": "D" },
+    { "num": 12, "opponent": "Pedro Marquez", "result": "W-TKO", "tier": "D" },
+    { "num": 13, "opponent": "Danny Mitchell", "result": "W-RTD", "tier": "D" },
+    { "num": 14, "opponent": "Ralph Moncrief", "result": "W-TKO", "tier": "C" },
+    {
+      "num": 15,
+      "opponent": "David McCluskey",
+      "result": "W-TKO",
+      "tier": "D"
+    },
+    { "num": 16, "opponent": "Willie Kemp", "result": "W-UD", "tier": "D" },
+    { "num": 17, "opponent": "Dennis Milton", "result": "W-RTD", "tier": "B" },
+    { "num": 18, "opponent": "Randy Smith", "result": "W-UD", "tier": "D" },
+    { "num": 19, "opponent": "Anibal Miranda", "result": "W-PTS", "tier": "D" },
+    { "num": 20, "opponent": "James Stokes", "result": "W-KO", "tier": "D" },
+    { "num": 21, "opponent": "Eric Rhinehart", "result": "W-KO", "tier": "D" },
+    { "num": 22, "opponent": "Wayne Powell", "result": "W-TKO", "tier": "C" },
+    { "num": 23, "opponent": "Gilbert Baptist", "result": "W-UD", "tier": "B" },
+    { "num": 24, "opponent": "Roy Jones Jr", "result": "L-UD", "tier": "S" },
+    { "num": 25, "opponent": "Roy Ritchie", "result": "W-TKO", "tier": "D" },
+    { "num": 26, "opponent": "Wendell Hall", "result": "W-TKO", "tier": "D" },
+    { "num": 27, "opponent": "Melvin Wynn", "result": "W-TKO", "tier": "D" },
+    { "num": 28, "opponent": "Lupe Aquino", "result": "W-UD", "tier": "B" },
+    {
+      "num": 29,
+      "opponent": "Segundo Mercado",
+      "result": "W-NOD",
+      "tier": "C"
+    },
+    {
+      "num": 30,
+      "opponent": "Segundo Mercado",
+      "result": "W-TKO",
+      "tier": "C"
+    },
+    { "num": 31, "opponent": "Steve Frank", "result": "W-TKO", "tier": "D" },
+    { "num": 32, "opponent": "Joe Lipsey", "result": "W-KO", "tier": "B" },
+    {
+      "num": 33,
+      "opponent": "William Bo James",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    {
+      "num": 34,
+      "opponent": "John David Jackson",
+      "result": "W-TKO",
+      "tier": "B"
+    },
+    { "num": 35, "opponent": "Glen Johnson", "result": "W-TKO", "tier": "B+" },
+    { "num": 36, "opponent": "Andrew Council", "result": "W-UD", "tier": "B+" },
+    { "num": 37, "opponent": "Simon Brown", "result": "W-TKO", "tier": "B" },
+    { "num": 38, "opponent": "Robert Allen", "result": "NC-NC", "tier": "B" },
+    { "num": 39, "opponent": "Robert Allen", "result": "W-TKO", "tier": "B" },
+    { "num": 40, "opponent": "Antwun Echols", "result": "W-UD", "tier": "B" },
+    { "num": 41, "opponent": "Syd Vanderpool", "result": "W-UD", "tier": "B+" },
+    { "num": 42, "opponent": "Antwun Echols", "result": "W-TKO", "tier": "B" },
+    { "num": 43, "opponent": "Keith Holmes", "result": "W-UD", "tier": "A+" },
+    { "num": 44, "opponent": "Felix Trinidad", "result": "W-TKO", "tier": "S" },
+    { "num": 45, "opponent": "Carl Daniels", "result": "W-RTD", "tier": "B" },
+    { "num": 46, "opponent": "Morrade Hakkar", "result": "W-RTD", "tier": "C" },
+    { "num": 47, "opponent": "William Joppy", "result": "W-UD", "tier": "A" },
+    { "num": 48, "opponent": "Robert Allen", "result": "W-UD", "tier": "B" },
+    {
+      "num": 49,
+      "opponent": "Oscar De La Hoya",
+      "result": "W-KO",
+      "tier": "A+"
+    },
+    { "num": 50, "opponent": "Howard Eastman", "result": "W-UD", "tier": "B+" },
+    {
+      "num": 51,
+      "opponent": "Jermain Taylor",
+      "result": "L-SD",
+      "tier": "A++"
+    },
+    {
+      "num": 52,
+      "opponent": "Jermain Taylor",
+      "result": "L-UD",
+      "tier": "A++"
+    },
+    {
+      "num": 53,
+      "opponent": "Antonio Tarver",
+      "result": "W-UD",
+      "tier": "A++"
+    },
+    { "num": 54, "opponent": "Ronald Wright", "result": "W-UD", "tier": "A+" },
+    { "num": 55, "opponent": "Joe Calzaghe", "result": "L-SD", "tier": "S" },
+    { "num": 56, "opponent": "Kelly Pavlik", "result": "W-UD", "tier": "A++" },
+    { "num": 57, "opponent": "Enrique Ornelas", "result": "W-UD", "tier": "B" },
+    { "num": 58, "opponent": "Roy Jones Jr", "result": "W-UD", "tier": "B" },
+    { "num": 59, "opponent": "Jean Pascal", "result": "W-NOD", "tier": "A++" },
+    { "num": 60, "opponent": "Jean Pascal", "result": "W-UD", "tier": "A++" },
+    { "num": 61, "opponent": "Chad Dawson", "result": "NC-NC", "tier": "A+" },
+    { "num": 62, "opponent": "Chad Dawson", "result": "L-MD", "tier": "A+" },
+    { "num": 63, "opponent": "Tavoris Cloud", "result": "W-UD", "tier": "A+" },
+    { "num": 64, "opponent": "Karo Murad", "result": "W-UD", "tier": "B+" },
+    {
+      "num": 65,
+      "opponent": "Beibut Shumenov",
+      "result": "W-SD",
+      "tier": "B+"
+    },
+    { "num": 66, "opponent": "Sergey Kovalev", "result": "L-UD", "tier": "S+" },
+    { "num": 67, "opponent": "Joe Smith Jr", "result": "L-KO", "tier": "A" }
+  ]
+}

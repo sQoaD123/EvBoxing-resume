@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Список усіх наших 14 боксерів (назви файлів без .json)
+  // Список усіх наших боксерів
   const boxerIds = [
     "usyk",
     "joshua",
@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "lomachenko",
     "lewis",
     "fury",
+    "hopkins",
   ];
 
   const tierPoints = {
@@ -31,11 +32,18 @@ document.addEventListener("DOMContentLoaded", () => {
     "S+": 40,
   };
 
-  let globalLeaderboardData = []; // Сюди зберемо прораховані дані всіх бійців
-  let leaderboardChart = null; // Екземпляр Chart.js
-  let currentMode = "points"; // Поточний режим за замовчуванням
+  let globalLeaderboardData = [];
+  let leaderboardChart = null;
+  let currentMode = "points";
 
-  // 1. Функція завантаження та парсингу всіх файлів
+  // Кеш для фотографій
+  const imageCache = {};
+  boxerIds.forEach((id) => {
+    const img = new Image();
+    img.src = `images/${id}.png`;
+    imageCache[id] = img;
+  });
+
   const loadAllBoxersData = async () => {
     try {
       const fetchPromises = boxerIds.map((id) =>
@@ -47,7 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const allBoxers = await Promise.all(fetchPromises);
 
-      // Обраховуємо метрики для кожного боксера
       globalLeaderboardData = allBoxers.map((boxer) => {
         let totalPoints = 0;
         let sAndSPlusWins = 0;
@@ -73,6 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
             : 0;
 
         return {
+          id: boxer.id,
           name: boxer.name,
           points: totalPoints,
           avg: avgPoints,
@@ -80,16 +88,13 @@ document.addEventListener("DOMContentLoaded", () => {
         };
       });
 
-      // Коли всі дані зібрані — будуємо початковий графік
       initChart();
     } catch (error) {
       console.error("Error loading leaderboard data:", error);
     }
   };
 
-  // 2. Функція ініціалізації та оновлення графіка
   const initChart = () => {
-    // Сортуємо дані за зростанням (ascending: від найменшого до найбільшого)
     globalLeaderboardData.sort((a, b) => {
       if (currentMode === "points") return a.points - b.points;
       if (currentMode === "avg") return a.avg - b.avg;
@@ -97,7 +102,6 @@ document.addEventListener("DOMContentLoaded", () => {
       return 0;
     });
 
-    // Витягуємо масиви для Chart.js
     const labels = globalLeaderboardData.map((b) => b.name);
     let chartData = [];
     let labelDataText = "";
@@ -113,18 +117,45 @@ document.addEventListener("DOMContentLoaded", () => {
       labelDataText = "S / S+ Wins Count";
     }
 
+    const len = globalLeaderboardData.length;
+    const backgroundColors = [];
+    const borderColors = [];
+
+    // ОНОВЛЕНА СВІТЛА ПАЛІТРА ДЛЯ КОЛОНОК
+    for (let i = 0; i < len; i++) {
+      if (i === len - 1) {
+        // 1 місце — Золото (яскравіше)
+        backgroundColors.push("rgba(212, 175, 55, 0.45)");
+        borderColors.push("#D4AF37");
+      } else if (i === len - 2) {
+        // 2 місце — Срібло (яскравіше)
+        backgroundColors.push("rgba(192, 192, 192, 0.45)");
+        borderColors.push("#C0C0C0");
+      } else if (i === len - 3) {
+        // 3 місце — Бронза (яскравіше)
+        backgroundColors.push("rgba(205, 127, 50, 0.5)");
+        borderColors.push("#CD7F32");
+      } else {
+        // Решта боксерів — видимий напівпрозорий світло-сірий тон
+        backgroundColors.push("rgba(255, 255, 255, 0.12)");
+        borderColors.push("rgba(255, 255, 255, 0.4)");
+      }
+    }
+
     const ctx = document.getElementById("leaderboardChart").getContext("2d");
 
-    // Якщо графік уже існує — просто оновлюємо дані, щоб була гарна анімація
     if (leaderboardChart) {
       leaderboardChart.data.labels = labels;
       leaderboardChart.data.datasets[0].data = chartData;
       leaderboardChart.data.datasets[0].label = labelDataText;
+      leaderboardChart.data.datasets[0].backgroundColor = backgroundColors;
+      leaderboardChart.data.datasets[0].borderColor = borderColors;
+      leaderboardChart.data.datasets[0].hoverBackgroundColor = borderColors;
+      leaderboardChart.data.datasets[0].hoverBorderColor = borderColors;
       leaderboardChart.update();
       return;
     }
 
-    // Перший запуск: створюємо об'єкт вертикального бару (bar chart)
     leaderboardChart = new Chart(ctx, {
       type: "bar",
       data: {
@@ -133,11 +164,11 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             label: labelDataText,
             data: chartData,
-            backgroundColor: "rgba(255, 255, 255, 0.08)", // Світло-сірі стильні стовпчики
-            borderColor: "#ffffff", // Біла контрастна рамка
+            backgroundColor: backgroundColors,
+            borderColor: borderColors,
             borderWidth: 1,
-            hoverBackgroundColor: "#ffffff", // При ховері стовпчик повністю біліє
-            hoverBorderColor: "#ffffff",
+            hoverBackgroundColor: borderColors,
+            hoverBorderColor: borderColors,
             borderRadius: 4,
           },
         ],
@@ -148,16 +179,17 @@ document.addEventListener("DOMContentLoaded", () => {
         scales: {
           x: {
             ticks: { color: "#888", font: { size: 10 } },
-            grid: { display: false }, // Ховаємо вертикальні лінії сітки для чистоти
+            grid: { display: false },
           },
           y: {
             beginAtZero: true,
+            grace: "18%",
             ticks: { color: "#888" },
             grid: { color: "#111" },
           },
         },
         plugins: {
-          legend: { display: false }, // Ховаємо легенду, бо назва є в тултіпі
+          legend: { display: false },
           tooltip: {
             backgroundColor: "#050505",
             titleColor: "#fff",
@@ -169,23 +201,62 @@ document.addEventListener("DOMContentLoaded", () => {
           },
         },
       },
+      plugins: [
+        {
+          id: "boxerImagesOnBars",
+          afterDatasetsDraw: (chart) => {
+            const { ctx } = chart;
+            const meta = chart.getDatasetMeta(0);
+
+            meta.data.forEach((bar, index) => {
+              const boxerId = globalLeaderboardData[index].id;
+              const img = imageCache[boxerId];
+
+              const photoWidth = 44;
+              const photoHeight = 55;
+
+              const posX = bar.x - photoWidth / 2;
+              const posY = bar.y - photoHeight - 10;
+
+              if (img && img.complete && img.naturalWidth !== 0) {
+                ctx.save();
+                ctx.drawImage(img, posX, posY, photoWidth, photoHeight);
+                ctx.restore();
+              } else {
+                ctx.save();
+                ctx.fillStyle = "#0a0a0a";
+                ctx.strokeStyle = borderColors[index];
+                ctx.lineWidth = 1;
+
+                ctx.fillRect(posX, posY, photoWidth, photoHeight);
+                ctx.strokeRect(posX, posY, photoWidth, photoHeight);
+
+                ctx.fillStyle = "#555";
+                ctx.font = "8px sans-serif";
+                ctx.textAlign = "center";
+                ctx.fillText(
+                  boxerId.substring(0, 4).toUpperCase(),
+                  bar.x,
+                  posY + photoHeight / 2 + 3,
+                );
+                ctx.restore();
+              }
+            });
+          },
+        },
+      ],
     });
   };
 
-  // 3. Обробка кліків по кнопках режимів
   const buttons = document.querySelectorAll(".rank-btn");
   buttons.forEach((btn) => {
     btn.addEventListener("click", (e) => {
-      // Змінюємо активний клас на кнопках
       buttons.forEach((b) => b.classList.remove("active"));
       e.target.classList.add("active");
-
-      // Оновлюємо режим і перемальовуємо графік
       currentMode = e.target.getAttribute("data-mode");
       initChart();
     });
   });
 
-  // Запуск системи
   loadAllBoxersData();
 });
